@@ -9,6 +9,7 @@
   <review status="unreviewed" notes=""/>
   <url>aoeu</url>
   <depend package="eigen"/>
+  <depend package="teichman_ros_pkg_hook"/>
 
   <export>
     <cpp cflags="-I${prefix}/include `pkg-config --cflags-only-I python`" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lmatplotlib_interface `pkg-config --libs-only-l python`" />

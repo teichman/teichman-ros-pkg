@@ -11,6 +11,7 @@
   <depend package="eigen"/>
   <depend package="gzstream"/>
   <depend package="timer"/>
+  <depend package="teichman_ros_pkg_hook"/>
 
   <export>
     <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -Wl,-rpath ${prefix}/lib `rosboost-cfg --lflags filesystem` `rosboost-cfg --lflags system` -leigen_extensions"/>

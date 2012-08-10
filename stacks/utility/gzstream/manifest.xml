@@ -9,6 +9,8 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/gzstream</url>
 
+  <depend package="teichman_ros_pkg_hook"/>
+  
   <export>
     <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -Wl,-rpath ${prefix}/lib -lz -lgzstream"/>
   </export>
