@@ -1,4 +1,4 @@
-#include <bag_of_tricks/high_res_timer.h>
+#include <timer/timer.h>
 #include <eigen_extensions/random.h>
 #include <gtest/gtest.h>
 
