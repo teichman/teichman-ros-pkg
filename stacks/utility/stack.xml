@@ -1,0 +1,9 @@
+<stack>
+  <description brief="utility">utility</description>
+  <author>Maintained by teichman</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/utility</url>
+  <depend stack="ros" />
+
+</stack>

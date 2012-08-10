@@ -1,0 +1,20 @@
+<package>
+  <description brief="serializable">
+
+     serializable
+
+  </description>
+  <author>teichman</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/serializable</url>
+
+  <export>
+    <cpp cflags="-I${prefix}/include"
+	 lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lserializable" />
+  </export>
+
+
+</package>
+
+

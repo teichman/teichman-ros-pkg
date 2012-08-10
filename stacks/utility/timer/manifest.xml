@@ -1,0 +1,19 @@
+<package>
+  <description brief="timer">
+
+     timer
+
+  </description>
+  <author>Alex Teichman</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/timer</url>
+  
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib `rosboost-cfg --lflags thread` -ltimer" />
+  </export>
+
+  
+</package>
+
+

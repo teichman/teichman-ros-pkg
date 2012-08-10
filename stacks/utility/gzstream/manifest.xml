@@ -1,0 +1,19 @@
+<package>
+  <description brief="gzstream">
+
+     gzstream
+
+  </description>
+  <author>teichman</author>
+  <license>LGPL</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/gzstream</url>
+
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -Wl,-rpath ${prefix}/lib -lz -lgzstream"/>
+  </export>
+
+  
+</package>
+
+

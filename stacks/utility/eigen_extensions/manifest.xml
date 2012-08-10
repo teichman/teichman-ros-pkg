@@ -1,0 +1,21 @@
+<package>
+  <description brief="eigen_extensions">
+
+     eigen_extensions
+
+  </description>
+  <author>teichman</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/eigen_extensions</url>
+  <depend package="eigen"/>
+  <depend package="gzstream"/>
+  <depend package="timer"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -Wl,-rpath ${prefix}/lib `rosboost-cfg --lflags filesystem` `rosboost-cfg --lflags system` -leigen_extensions"/>
+  </export>
+  
+</package>
+
+
